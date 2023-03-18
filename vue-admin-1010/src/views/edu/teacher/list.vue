@@ -161,7 +161,7 @@ export default {
               this.getList();
             })
             .catch((error) => {
-              alert("shibai ");
+              alert("删除失败～");
             });
         })
         .catch(() => {
@@ -169,7 +169,7 @@ export default {
             type: "info",
             message: "已取消删除",
           });
-          alert("hhhhhhhsb");
+          //alert("hhhhhhhsb");
         });
     },
   },
